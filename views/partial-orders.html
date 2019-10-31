@@ -1,0 +1,5 @@
+<ul>
+    ${data.map(order => `
+        <li>${order.customer} purchased a ${order.product} on ${order.date}</li>
+        `).join('')}
+</ul>
